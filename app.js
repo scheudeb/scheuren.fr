@@ -6,12 +6,11 @@ document.addEventListener('DOMContentLoaded', () => {
         if (body.classList.contains('dark')) {
             body.classList.add('light')
             body.classList.remove('dark')
-            btnToggle.innerHTML = "Mode nuit"
+            btnToggle.innerHTML = '<i class="fa-solid fa-moon"></i>'
         } else if (body.classList.contains('light')) {
             body.classList.add('dark')
             body.classList.remove('light')
-            btnToggle.innerHTML = "Mode jour"
-
+            btnToggle.innerHTML = '<i class= "fa-solid fa-sun"></i>'
         }
     });
 });
