@@ -18,13 +18,11 @@ body.dark {
     background-color: #333 !important;
 }
 
-body.dark .logo {
-    background-color: #ffffff;
-}
-
 body.dark .renvoi {
     border-bottom: 2px solid #000000;
     box-shadow: none;
+    background-color: #363636;
+
 }
 
 body.dark #header .linkbody a {
@@ -67,11 +65,9 @@ body.dark footer .social i {
     -moz-box-shadow: 0px 5px 5px 0px rgba(230, 225, 225, 0.75);
     display: flex;
     position: fixed;
-    background: transparent;
-    backdrop-filter: blur(10px);
+    background-color: white;
     flex-direction: row;
     justify-content: space-around;
-    z-index: 1;
 }
 
 .logo {
@@ -222,7 +218,7 @@ body.dark footer .social i {
     align-items: center;
     justify-content: space-around;
     margin-bottom: 35px;
-
+    padding: 6px;
     width: 170px;
     height: 45px;
     color: #ffffff;
@@ -266,6 +262,7 @@ body.dark footer .social i {
 .skills p {
     width: 160px;
     height: 60px;
+    padding: 6px;
     background-color: rgb(58, 58, 52);
     color: #ffffff;
     display: flex;
