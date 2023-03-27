@@ -356,6 +356,10 @@ body.dark footer .social i {
     background-image: url("./images/kanap.png");
 }
 
+.s5 {
+    background-image: url("./images/hot.png");
+}
+
 footer {
     height: 95px;
     border-top: 1px solid #000000;
