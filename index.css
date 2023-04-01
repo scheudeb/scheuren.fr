@@ -53,6 +53,9 @@ body.dark .section_2 {
 body.dark footer .social i {
     color: white;
 }
+body.dark .button_download i {
+    color: #ffffff;
+}
 
 /* Header */
 .renvoi {
@@ -66,6 +69,7 @@ body.dark footer .social i {
     background-color: white;
     flex-direction: row;
     justify-content: space-around;
+    z-index: 100;
 }
 
 .logo {
@@ -272,13 +276,56 @@ body.dark footer .social i {
 
 }
 
-/* Section 4 : websites */
-
-#section_4 {
-    padding: 3vw 5vw 0vw;
+/* Section CV */ 
+.cv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
 }
 
-#section_4 h2 {
+.cv img {
+    width: 500px;
+    height: 700px;
+    filter: grayscale(1);
+    display: flex;
+    position: 0;
+    margin-bottom: 50px;
+    z-index: -1;
+}
+
+.button_download {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_download i {
+    color: #000000;
+    border: 1px solid #000000;
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button_download i:hover {
+    transform: rotate(360deg);
+}
+
+/* Section 5 : websites */
+
+#section_5 {
+    padding: 3vw 5vw 0vw;
+    height: auto;
+}
+
+#section_5 h2 {
     font-size: 25px;
     text-transform: uppercase;
     letter-spacing: 0.5em;
@@ -289,35 +336,33 @@ body.dark footer .social i {
 .slideshow_container {
     margin-top: 4vw;
     overflow: hidden;
-    min-height: 75vmin;
-    cursor: grab;
+    min-height: 150vmin;
     position: relative;
-}
-
-.slideshow_container:active {
-    cursor: grabbing;
 }
 
 .slideshow {
     position: absolute;
-    height: 100%;
-    display: flex;
-    pointer-events: none;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    /* align-items: center; */
 }
 
 .slide {
     flex-shrink: 0;
     color: #ffffff;
-    height: 85%;
-    width: 80vmin;
+    height: 530px;
+    width: 530px;
     background-size: cover;
     background-position: center;
-    position: relative;
+    display: flex;
+    position: relative;    /* align-items: flex-start; */
+    margin: 10px;    
 }
 
-.slide:not(:nth-child(1)) {
-    margin-left: 10px;
-}
 
 .overlay {
     position: absolute;
@@ -325,17 +370,17 @@ body.dark footer .social i {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.40);
+    background-color: rgba(0, 0, 0, 0.05);
 }
 
 .slide a {
     position: absolute;
     display: flex;
     top: 50%;
-    right: 45%;
+    right: 38%;
     font-size: 30px;
     text-transform: uppercase;
-    color: rgb(255, 255, 255) !important;
+    color: rgb(0, 0, 0) !important;
     text-decoration: none;
     pointer-events: auto;
 }
