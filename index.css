@@ -405,6 +405,10 @@ body.dark .button_download i {
     background-image: url("./images/hot.png");
 }
 
+.s6 {
+    background-image: url("./images/capture_cosmic.png");
+}
+
 footer {
     height: 95px;
     border-top: 1px solid #000000;
