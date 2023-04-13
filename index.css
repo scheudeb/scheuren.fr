@@ -378,7 +378,7 @@ body.dark .button_download i {
 }
 
 .s3 {
-    background-image: url("./images/panthere.jpg");
+    background-image: url("./images/panthere.png");
 }
 
 .s4 {
@@ -422,6 +422,10 @@ footer .social i {
 }
 
 @media (max-width: 1140px) {
+
+    .section_1 p {
+        font-size: 45px;
+    }
     .skills i {
         margin-right: 40px;
         font-size: 50px;
