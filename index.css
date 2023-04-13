@@ -263,7 +263,6 @@ body.dark .button_download i {
 }
 
 .skills i {
-    display: flex;
     margin-right: 100px;
     font-size: 45px;
 }
@@ -423,16 +422,9 @@ footer .social i {
 }
 
 @media (max-width: 1140px) {
-
-    .skills {
-        display: flex;
-        width: 200px;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-    .skills p {
-
+    .skills i {
+        margin-right: 40px;
+        font-size: 50px;
     }
     .slideshow_container {
         display: flex;
