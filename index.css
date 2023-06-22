@@ -369,7 +369,7 @@ body.dark .button_download i {
 }
 
 .s1 {
-    background-image: url("./images/booki.png");
+    background-image: url("./images/capture_cosmic.png");;
 }
 
 .s2 {
@@ -389,7 +389,7 @@ body.dark .button_download i {
 }
 
 .s6 {
-    background-image: url("./images/capture_cosmic.png");
+    background-image: url("./images/booki.png");
 }
 
 footer {
@@ -419,6 +419,13 @@ footer .social i {
     color: #000000;
     font-size: 28px;
 }
+
+footer .social i:hover {
+    transform: rotate(360deg);
+    transition: 1s;
+}
+
+
 
 @media (max-width: 1140px) {
 
