@@ -373,22 +373,26 @@ body.dark .button_download i {
 }
 
 .s2 {
-    background-image: url("./images/ohmyfood.png");
+    background-image: url("./images/BR.jpg");
 }
 
 .s3 {
-    background-image: url("./images/panthere.png");
+    background-image: url("./images/ohmyfood.png");
 }
 
 .s4 {
-    background-image: url("./images/kanap.png");
+    background-image: url("./images/panthere.png");
 }
 
 .s5 {
-    background-image: url("./images/hot.png");
+    background-image: url("./images/kanap.png");
 }
 
 .s6 {
+    background-image: url("./images/hot.png");
+}
+
+.s7 {
     background-image: url("./images/booki.png");
 }
 
