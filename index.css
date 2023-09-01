@@ -19,7 +19,15 @@ body.dark .renvoi {
     border-bottom: 2px solid #000000;
     box-shadow: none;
     background-color: #363636;
+}
 
+body.dark .logo {
+    display: none;
+}
+
+body.dark .logo_dark {
+    display: flex;
+    justify-content: flex-start;
 }
 
 body.dark #header .linkbody a {
@@ -74,6 +82,10 @@ body.dark .button_download i {
 .logo {
     display: flex;
     justify-content: flex-start;
+}
+
+.logo_dark {
+    display: none;
 }
 
 .linkbody {
@@ -280,12 +292,16 @@ body.dark .button_download i {
     width: 500px;
     height: 700px;
     filter: grayscale(1);
+    -webkit-filter: grayscale(1);
     display: flex;
     position: 0;
     margin-bottom: 50px;
-    z-index: -1;
 }
 
+.cv img:hover {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
 .button_download {
     display: flex;
     flex-direction: column;
