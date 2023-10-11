@@ -97,7 +97,7 @@ body.dark .button_download i {
     font-size: 22px;
     text-transform: uppercase;
     text-decoration: none !important;
-    width: 120px;
+    width: 200px;
     color: #000000;
 }
 
@@ -285,7 +285,7 @@ body.dark .button_download i {
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding-bottom: 15px;
+    padding-bottom: 45px;
 }
 
 .img_container {
@@ -347,12 +347,20 @@ body.dark .button_download i {
 
 /* Section des projets */ 
 
-.section_5 {
+.section_5 h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+.bloc_cards {
     height: auto;
     width: 80%;
     /* padding: 15px; */
     display: flex;
-    flex-direction: row;
+    /* flex-direction: col; */
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 0 auto;
